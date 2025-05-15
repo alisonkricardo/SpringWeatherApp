@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <h1>Spring Weather 🌸</h1>
+            <div class="search-box">
+                <input type="text" id="city-input" placeholder="Enter city name...">
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="weather-info">
+                <div class="weather-icon">
+                    <img id="weather-icon" src="icons/cherry blossom.png" alt="Weather Icon">
+                </div>
+                <div class="date-time" id="date-time"></div>
+                <div class="temperature">
+                    <span id="temp">--</span>°C
+                </div>
+                <div class="description" id="description">Enter a city to see the weather</div>
+                <div class="quote" id="quote">Smell the flowers! 🌸</div>
+            </div>
+        </div>
+    </div>
+    <div class="petals"></div>
+    <script src="script.js"></script>
+</body>
+</html> 
